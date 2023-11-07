@@ -1,0 +1,21 @@
+@media (max-width: 500px){
+  .cards {
+    justify-content: space-around;
+  }
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.card img {
+  width: 150px;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
